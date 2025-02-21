@@ -1,4 +1,4 @@
-import { Progress } from "@/components/ui/progress"; // ✅ Import ShadCN Progress Bar
+/*import { Progress } from "@/components/ui/progress"; // ✅ Import ShadCN Progress Bar
 import { Calendar } from "@/components/ui/calendar";
 import { useState, useEffect } from "react";
 
@@ -9,14 +9,14 @@ export default function RightSidebar({ totalExpenditure }) {
 
   return (
     <div className="w-[20%] bg-blue-100 flex flex-col p-4">
-      {/* 🔹 Progress Tracker Section */}
+      
       <div className="bg-white p-4 rounded-lg shadow-md mb-4">
         <h3 className="text-sm font-medium text-gray-600">Expense Tracker</h3>
         <p className="text-lg font-semibold text-gray-800">
           ₹{totalExpenditure.toLocaleString()} / ₹{maxThreshold}
         </p>
 
-        {/* 🔹 Progress Bar */}
+        
         <Progress
           value={progress}
           className="h-3 mt-2 bg-gray-200 rounded-lg"
@@ -32,8 +32,8 @@ export default function RightSidebar({ totalExpenditure }) {
           {progress.toFixed(1)}% Spent
         </p>
       </div>
-      {/* 🔹 Calendar Section (at the bottom) */}
-      <div className="flex-grow"></div> {/* Pushes Calendar to Bottom */}
+     
+    
       <Calendar
         mode="single"
         selected={date}
@@ -47,4 +47,4 @@ export default function RightSidebar({ totalExpenditure }) {
       />
     </div>
   );
-}
+}*/
