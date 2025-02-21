@@ -101,7 +101,7 @@ export default function Sidebar({ onCloseMobile }) {
           onClick={() => {
             document.cookie =
               "token=; expires=Thu, 01 Jan 2020 00:00:00 UTC; path=/;";
-            window.location.href = "/login";
+            window.location.href = "/";
           }}
         />
       </div>
